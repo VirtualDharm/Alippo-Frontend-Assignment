@@ -1,4 +1,3 @@
-// EditModal.tsx
 import React, { useState, useEffect } from 'react';
 import Modal from 'react-modal';
 import './EditModal.css';
@@ -33,8 +32,8 @@ const EditModal: React.FC<EditModalProps> = ({ isOpen, data, onSave, onCancel })
       isOpen={isOpen}
       onRequestClose={onCancel}
       contentLabel="Edit Entry"
-      className="modal-content" // Apply the modal content class
-      overlayClassName="modal-overlay" // Apply the overlay class
+      className="modal-content"
+      overlayClassName="modal-overlay"
     >
       <div>
         <h2>Edit Entry</h2>

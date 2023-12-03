@@ -1,4 +1,3 @@
-// Table.tsx
 import React, { useState, useEffect } from 'react';
 import EditModal from './EditModal';
 import ConfirmationModal from './ConfirmationModal';
